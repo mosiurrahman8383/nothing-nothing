@@ -1,11 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nothing</title>
+    <title>Gride Responsive</title>
+
+
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+
+
+        .food {
+            border: 2px solid tomato;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .food-img {
+            width: 100%;
+            /* height: 30%;        */
+        }
+
+        /* For smaller device */
+        @media screen and (max-width:576px) {
+            .container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+
+        @media screen and (min-width: 576px) and (max-width: 992px) {
+            .container{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <h1>This is nothing</h1>
+    <h1>Organic Food for You</h1>
+    <div class="container">
+        <div class="food">
+            <img class="food-img" src="assets/img/Organic 1.jpg" alt="">
+            <h1>Organic Food - 1</h1>
+            <p>price-/100</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque sunt incidunt officia tempore porro
+                ipsum accusamus qui dolorum perferendis illo, dolor debitis laboriosam iusto cupiditate rerum quasi
+                molestias eveniet. Veritatis soluta sunt commodi deleniti aperiam tempore natus expedita consequuntur
+                libero a tempora, quo corporis, iusto laudantium, molestias optio pariatur eos voluptate quod totam
+                ipsum illo officiis. Ducimus officia laborum iste illum quis in provident, tempore reprehenderit enim
+                itaque, dolorum similique ullam fugiat neque asperiores quidem accusamus reiciendis commodi cupiditate
+                dolores. Laboriosam, ipsam atque facere fugit quo ullam, quaerat ipsa natus impedit molestiae nisi
+                obcaecati accusantium ad dolor dignissimos saepe vel! Dolorem, voluptates doloremque nemo voluptatum
+                optio, quod sed nam recusandae molestiae a veritatis repudiandae laborum quis. Minima fuga similique
+                alias asperiores et adipisci inventore suscipit velit cupiditate assumenda placeat recusandae repellat
+                dicta nam ex aspernatur, quibusdam accusamus architecto est ea? Tempora consectetur ut temporibus
+                explicabo iusto! Beatae reiciendis aliquam fugiat, magni dolores nostrum accusantium numquam, maxime
+                maiores natus eaque harum error. Eius quis libero ratione, aliquam odio non cum dolores porro nostrum
+                cupiditate ab tenetur. Facilis cum fugit dolore repellendus veniam assumenda ullam? Reprehenderit
+                molestias, amet error dicta blanditiis aperiam odit impedit inventore corrupti, minus libero incidunt
+                pariatur ratione accusantium!</p>
+            <button>Order Now</button>
+
+        </div>
+        <div class="food">
+            <img class="food-img" src="assets/img/Organic 2.jpg" alt="">
+            <h1>Organic Food - 2</h1>
+            <p>price-/200</p>
+            <p>Eaque mollitia similique hic soluta quasi alias nisi, neque minus sequi, possimus qui aut. Facilis
+                deleniti distinctio iure delectus neque quod sint facere iusto amet dolorem iste vel quia, itaque
+                aperiam saepe quas vitae maiores provident unde tempora dicta, laudantium placeat similique impedit.
+                Explicabo, laborum at eius doloremque, commodi nisi quis, iusto sed ratione illo aspernatur enim quos
+                optio voluptatem. Rem amet vitae esse explicabo atque. Nostrum debitis asperiores laborum tempore, rem
+                vel omnis veritatis, deserunt officia nemo id doloremque alias quibusdam est placeat repellat aperiam
+                minima velit. Nesciunt, accusantium facilis. Quae mollitia necessitatibus perferendis. Excepturi totam
+                itaque neque necessitatibus cum architecto, odit natus tenetur nostrum autem. Laboriosam, autem. Nemo
+                atque obcaecati et consequuntur, qui reiciendis eius impedit dolore nulla maxime cum. Placeat error ab
+                veritatis quos voluptatum quam, quidem iusto aspernatur perferendis blanditiis nam. In optio voluptates
+                excepturi et aspernatur nihil, recusandae soluta explicabo iste eos praesentium odio. Vero, quidem? Esse
+                iusto ipsum iste placeat distinctio dolorum rerum maxime eos sit ducimus minima impedit iure architecto
+                sequi aperiam quos rem, dolor sed labore. Vero blanditiis saepe earum ex officiis tempora fuga
+                voluptates dicta. Dolorem incidunt ex fuga, earum mollitia nostrum voluptatibus repellat, id qui culpa
+                corrupti dolor animi. Dolorum.</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img class="food-img" src="assets/img/Organic 1.jpg" alt="">
+            <h1>Organic Food - 3</h1>
+            <p>price-/300</p>
+            <p>Ipsa rerum consequatur iure ut ullam quis, aut beatae numquam, tenetur dolore, ea vel magni. Laboriosam
+                optio ad, cumque amet ratione pariatur saepe dolorum ab inventore alias incidunt asperiores aliquam
+                beatae aspernatur! Sequi inventore, deserunt odio quam suscipit corporis a ipsam. Aperiam doloribus
+                dicta quo eius ea sapiente accusamus vitae a illum dolorem, libero nihil tempore sit? Nobis quos
+                deserunt cupiditate hic, error dignissimos magnam eaque ad reprehenderit dolor veniam! Impedit soluta ex
+                maiores voluptatum nam earum veritatis, quisquam facilis fugiat ea cumque dolores inventore fugit et
+                atque velit quia architecto minus enim necessitatibus numquam! Tempora nihil similique fugit nemo
+                accusantium, molestiae harum asperiores maxime labore tenetur consectetur accusamus commodi velit quo.
+                Corrupti autem in, error dolorum atque tempore impedit? Mollitia ratione ea hic vero fugit quaerat
+                asperiores ipsa explicabo nesciunt laboriosam, quia suscipit id amet distinctio iure ex necessitatibus,
+                dolorum veritatis voluptatibus omnis dolorem. Quasi laudantium reprehenderit iure ratione corrupti
+                aperiam odio alias, architecto dignissimos unde debitis. Dolor fuga, quasi qui quae nam repellendus
+                culpa. Ipsum nobis aliquid commodi aut! Cumque, facere iusto voluptates aliquid ipsam veritatis,
+                repellendus blanditiis harum ab voluptatibus tempore et sapiente quisquam illo dolorum recusandae nemo
+                iure numquam sit voluptatem porro repellat. Excepturi, blanditiis necessitatibus.</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img class="food-img" src="assets/img/Organic 2.jpg" alt="">
+            <h1>Organic Food - 4</h1>
+            <p>price-/400</p>
+            <p>Sint, debitis ducimus a molestias ipsam quibusdam aperiam dicta ea distinctio maiores illum qui eius
+                omnis provident accusamus porro dignissimos modi odio nihil. Doloribus vitae est maxime reiciendis atque
+                recusandae omnis dolore, voluptates ducimus architecto quam ab quibusdam accusantium corporis
+                exercitationem facere eligendi adipisci non vero dolorem voluptatum voluptate sed natus. Vel, libero.
+                Recusandae minus eum, non laborum placeat libero unde molestias dolorum a odit ut exercitationem
+                doloremque rerum facere ipsum, porro ea? Minus culpa recusandae accusantium assumenda distinctio vitae
+                ab explicabo officia sunt maiores aliquid fugit ipsam ratione ad atque quas, perferendis, nesciunt
+                sapiente. Voluptates ullam quam numquam nihil dolorem saepe nulla assumenda, corporis expedita at sit
+                dolorum exercitationem consequatur, esse obcaecati sequi illo dolor minus? Magnam, vel facilis ipsa a
+                temporibus distinctio, illo, in nostrum vitae aliquid iure quam cumque nisi sapiente? Suscipit, laborum
+                numquam? Ut minima, aperiam totam dolore neque magni perspiciatis, molestias provident deleniti quos vel
+                facilis deserunt quae praesentium est quasi alias enim expedita. Sequi magni dolore ad quas nemo ab,
+                fugiat adipisci sapiente blanditiis, aut voluptatum nihil a laboriosam, ducimus deserunt debitis itaque
+                minima. Porro quo debitis cupiditate aliquam a, qui inventore dolorem aperiam eveniet et, repellendus
+                omnis? Illum ipsa deleniti ea doloribus reprehenderit?</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img class="food-img" src="assets/img/Organic 1.jpg" alt="">
+            <h1>Organic Food - 5</h1>
+            <p>price-/500</p>
+            <p>Non ducimus dolorum, debitis ex aspernatur ullam fugit at soluta, ab, quasi rem! Iusto eligendi maxime
+                obcaecati? Vel eum ipsum at ab velit optio, doloribus modi consequatur perferendis soluta facilis error
+                voluptas repellendus iusto inventore facere quisquam voluptatem placeat reiciendis! Quod nesciunt earum
+                tenetur itaque ut possimus! Numquam cumque animi accusamus eveniet, ipsa optio quis iusto harum alias
+                deleniti repellat accusantium consequatur fugit quae reiciendis officiis excepturi! Cupiditate fuga
+                soluta quaerat nihil alias, illo quasi magnam. Recusandae illo sequi tenetur tempore repellendus
+                repudiandae, consectetur odio culpa similique! Blanditiis dolore nihil quos delectus odio nostrum sequi
+                quis? Sunt porro id, repudiandae repellendus blanditiis eligendi incidunt accusantium explicabo, tempore
+                quibusdam omnis beatae consequatur qui, dignissimos accusamus error similique! Sapiente qui modi
+                expedita distinctio delectus repellendus incidunt tempora eaque vel velit laudantium at inventore
+                mollitia, provident unde alias assumenda impedit odio aspernatur obcaecati quod praesentium vitae rerum.
+                Adipisci tempore vel earum, voluptate animi alias a eum reprehenderit recusandae laudantium impedit
+                aliquam, at praesentium non, reiciendis commodi quisquam aperiam eius suscipit optio quas voluptatem
+                harum perferendis! Enim harum sequi deserunt quia quasi iusto maxime impedit. Itaque suscipit dolorem
+                magni quibusdam perferendis necessitatibus animi, facere libero esse ipsum perspiciatis impedit quidem
+                doloribus reprehenderit, eius quasi.</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img class="food-img" src="assets/img/Organic 2.jpg" alt="">
+            <h1>Organic Food - 6</h1>
+            <p>price-/600</p>
+            <p>Nostrum blanditiis quidem perferendis repudiandae rerum quasi, provident, explicabo ipsa eos tenetur
+                incidunt illo fuga distinctio, quam quae. Voluptate vitae provident accusamus porro officiis unde
+                exercitationem adipisci expedita? Exercitationem, similique? Neque, maxime perspiciatis eligendi dolor
+                qui non optio debitis unde accusantium voluptate sint quam excepturi ut, quisquam laborum quae minima
+                ipsam consequatur labore libero iure. Iste sapiente, officiis commodi facere minima, quas laudantium
+                animi quod, architecto veritatis culpa. Voluptatum deserunt nam repellat quae? Iusto tempora quis cum
+                reiciendis perspiciatis, minima dolor maxime non incidunt quia tempore placeat voluptas beatae neque
+                aliquid saepe eveniet corporis eligendi rerum inventore impedit accusantium officia fugit id! Quas
+                eveniet obcaecati, odio esse incidunt rerum. Iusto excepturi ratione adipisci aliquid odio perspiciatis
+                ad ipsum, ipsa, libero nulla cumque quisquam ipsam deleniti illo aut laboriosam dolorem quia blanditiis
+                voluptatibus ex nostrum eligendi recusandae. Quaerat exercitationem ullam ut laudantium consectetur
+                explicabo ipsum hic, nisi maxime ratione cum voluptatem impedit nemo blanditiis enim. Perspiciatis quas
+                corporis distinctio provident omnis, earum beatae voluptatem atque, similique neque praesentium quasi
+                sapiente dignissimos laboriosam? Libero alias possimus, cupiditate est quod optio omnis ab sint
+                dignissimos sequi voluptatum adipisci nihil hic dolore minima explicabo doloribus amet aut, nesciunt
+                molestias placeat, dolores accusantium a provident?</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img class="food-img" src="assets/img/Organic 1.jpg" alt="">
+            <h1>Organic Food - 7</h1>
+            <p>price-/700</p>
+            <p>Non, numquam placeat, alias voluptatum ex natus ullam aliquid pariatur quod blanditiis ea qui laudantium
+                dolore consectetur temporibus quas possimus quae facilis. Ut cupiditate sint facere, fugiat nostrum eos
+                similique illum porro rerum sequi? Sunt iste doloremque dolores odio, nulla veritatis. Pariatur voluptas
+                totam, quasi inventore vel nihil quibusdam magni qui ratione aperiam, veniam doloremque provident
+                incidunt iste. Labore, eveniet? Dolorem totam voluptas, nihil inventore repudiandae maxime enim quam
+                saepe voluptatem facere perspiciatis ipsam magni, officiis nostrum molestiae. Nemo similique, fugiat
+                maiores magni ratione vero accusamus voluptates eligendi sint? Dicta aut harum commodi sunt? In ipsa
+                odio odit aperiam eius. Id laboriosam aut saepe, commodi non sapiente facilis necessitatibus! Dolorem
+                explicabo laudantium sequi praesentium placeat omnis eius quas, impedit, et nulla cum nobis aut
+                temporibus, ipsam laborum obcaecati. Debitis quo nulla porro fugit obcaecati at, voluptatibus error
+                officia, quas similique perferendis neque. Quod dolores aspernatur dolorem ad impedit. Sed alias unde
+                fuga error nostrum aut dolore earum eius doloribus quaerat, quisquam blanditiis laudantium
+                necessitatibus id nemo totam numquam voluptatum inventore vero maiores autem reprehenderit hic? Pariatur
+                iure eos aperiam natus, culpa delectus aspernatur nobis? Placeat rem dignissimos eveniet eius rerum odit
+                repellendus, earum fugiat in corrupti expedita provident accusantium eum.</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img class="food-img" src="assets/img/Organic 2.jpg" alt="">
+            <h1>Organic Food - 8</h1>
+            <p>price-/800</p>
+            <p>Enim, eaque non recusandae ea aut quam doloremque nostrum, natus impedit error ducimus. Enim facere porro
+                voluptatibus accusantium, cum laboriosam autem rerum aliquid consectetur molestiae? Quae magni dolore
+                voluptates fugiat? Quos, voluptates! Ex id minima, inventore autem dolore ad commodi accusantium
+                doloribus sit ipsum similique corrupti temporibus quaerat quis quae nulla odio excepturi debitis vero.
+                Eligendi maxime, veniam ex tenetur voluptate earum? Veniam suscipit non modi, dicta earum cumque rerum
+                quidem assumenda omnis beatae expedita dolorem molestiae at reiciendis enim facilis autem adipisci ullam
+                ipsa aut repudiandae. Enim, sunt consectetur rerum a, quisquam, recusandae odit suscipit fuga maxime
+                expedita labore ipsam. Iure adipisci tempora rerum numquam quisquam quia illum optio vel sunt
+                necessitatibus ducimus illo dolorum excepturi similique facilis at, inventore, voluptatum
+                exercitationem, enim nam rem dolores beatae qui ullam. Commodi, est omnis repudiandae reiciendis
+                temporibus molestiae inventore et beatae modi nostrum iure quas quod. Animi, possimus maiores!
+                Blanditiis sint quibusdam et reiciendis accusamus in exercitationem! Voluptate quam voluptatum possimus
+                temporibus excepturi neque et veritatis, quibusdam, a fugit rem doloremque natus quo consequuntur beatae
+                aliquid corrupti autem id ratione magni veniam? Itaque quas voluptates id. Repellendus consectetur
+                fugiat obcaecati ad libero voluptatum, error repudiandae culpa neque, accusantium et laudantium. Illum.
+            </p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img class="food-img" src="assets/img/Organic 2.jpg" alt="">
+            <h1>Organic Food - 9</h1>
+            <p>price-/900</p>
+            <p>Numquam iste molestias harum quis non quibusdam ducimus provident. Similique repudiandae labore quo
+                perferendis repellat, laborum porro dicta saepe temporibus aliquid expedita autem suscipit vitae ipsa
+                totam natus eaque corporis consequuntur ipsum ad. Architecto iure molestiae libero sit nisi obcaecati
+                saepe, corporis cum. Consequatur quae blanditiis repudiandae ratione recusandae ducimus fugiat nulla
+                accusamus nam. Voluptate eius libero, aspernatur fuga quidem itaque consectetur alias commodi porro
+                eveniet, nihil soluta, placeat aliquid. Repellendus excepturi veniam similique vel maxime dignissimos
+                reiciendis sed tenetur dicta laborum atque eaque aut libero dolorum, a fuga inventore magni! Perferendis
+                dolorum illo totam explicabo. Beatae ex ab consectetur eaque sint blanditiis et provident vero est
+                voluptatibus, necessitatibus facere dicta. Pariatur dignissimos quo quasi ut nesciunt, placeat
+                recusandae quod eius similique aliquid cupiditate voluptatibus omnis ipsum neque. Repellendus cum iure
+                fuga esse, nulla labore vero ullam nemo consectetur delectus optio harum architecto quibusdam sapiente
+                minima excepturi ipsa adipisci atque sequi sed fugit vitae pariatur. Maiores asperiores necessitatibus
+                ab ullam deleniti quisquam iste assumenda autem. Fugiat a voluptatibus vitae aspernatur repellat autem
+                sed! A officiis ratione temporibus eveniet aliquid. Eum itaque aliquid tempora harum, similique hic
+                numquam non ad rerum. Est quae hic sapiente totam sunt incidunt libero nobis facere.</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img class="food-img" src="assets/img/Organic 1.jpg" alt="">
+            <h1>Organic Food - 10</h1>
+            <p>price-/1000</p>
+            <p>Eos accusantium illo obcaecati voluptatum. Laudantium molestias sint nemo voluptatibus enim ab nulla
+                harum dolores velit deserunt similique provident soluta nihil neque exercitationem ea amet dolorem optio
+                accusantium, corporis esse temporibus nam sequi officia. Nemo ad deleniti quo distinctio autem natus
+                optio, ratione placeat eius ullam perferendis esse? Doloribus, expedita aperiam fugit dicta quas ut
+                sapiente at, mollitia possimus fugiat soluta quod libero assumenda. Fugit soluta vel maiores beatae ex
+                minus totam blanditiis quo quas voluptates commodi, expedita dolorem inventore, reiciendis atque.
+                Explicabo iusto consequuntur sint obcaecati voluptatibus aperiam unde qui fugiat velit quibusdam. Alias,
+                maxime? Quod dolore nisi minus magnam sint quia tempora aspernatur, ea aut voluptatum itaque debitis
+                voluptatem nemo quos. Esse pariatur, magni quia recusandae modi labore quibusdam explicabo blanditiis
+                minima accusamus, asperiores perferendis repellendus amet tempore error dolores animi sint! Iusto
+                distinctio vero minima labore ducimus autem? Eius nobis quos ipsam saepe, accusamus sapiente magnam odit
+                architecto voluptatem placeat officiis enim vitae provident earum possimus id sequi omnis totam impedit
+                temporibus? Fugiat porro harum numquam ut quaerat, consequatur voluptatem, provident officiis blanditiis
+                repellendus repudiandae, quibusdam aperiam quae. Suscipit porro unde odio ipsum fugit quam vel, minus,
+                voluptatem impedit voluptates, distinctio natus magnam expedita assumenda quisquam nam?</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img class="food-img" src="assets/img/Organic 2.jpg" alt="">
+            <h1>Organic Food - 11</h1>
+            <p>price-/1100</p>
+            <p>Odio a possimus delectus omnis! Optio voluptates soluta molestias dolorum! Ad unde nulla molestiae!
+                Facilis, officia beatae. Natus, sunt magnam. Impedit autem harum ratione exercitationem aliquam cumque
+                consectetur deleniti dolor at soluta maxime, qui, dolores eum voluptatem necessitatibus, veritatis sit
+                ut vel amet. Corporis commodi quisquam eaque beatae? Fugit sequi maiores atque suscipit asperiores
+                incidunt obcaecati iusto, id numquam reprehenderit! Dicta molestiae non dignissimos possimus? Eligendi
+                est neque, aliquid placeat voluptatem delectus quis, sit quasi ratione voluptatum, eaque nesciunt. Sint
+                incidunt quos facere accusantium blanditiis eum non maxime vero repellendus, quis harum, sapiente minus
+                natus doloremque ipsa nobis dolores voluptatibus at. Culpa architecto magnam in cum accusantium pariatur
+                ut alias quis, autem error dolore! Non, molestias quis dolore, deleniti, at minima autem temporibus
+                consequatur eos doloribus velit ipsam rem sunt? Modi optio alias, facere rem aspernatur perferendis,
+                ipsum iure commodi odit hic atque a numquam eaque, cumque nostrum perspiciatis fugit vitae eveniet!
+                Tempora temporibus, pariatur voluptates accusantium molestias assumenda consequatur eos, fugiat cumque,
+                error velit? Aspernatur quas odit deleniti. Velit sint adipisci, cumque quod consequuntur aliquam
+                laborum fuga dolor nobis cupiditate impedit et vero explicabo distinctio repellat ullam, cum architecto
+                ad labore similique quasi. Consectetur, quas odio. Porro, quos dolore!</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img class="food-img" src="assets/img/Organic 1.jpg" alt="">
+            <h1>Organic Food - 12</h1>
+            <p>price-/1200</p>
+            <p>Est enim ipsam officiis nihil dolorum quis totam praesentium unde modi maxime atque quos, quae maiores
+                architecto sunt rerum a aut aspernatur pariatur voluptatum nobis consectetur dicta quia veritatis! Sed
+                quas totam quos labore! Veniam reiciendis aperiam doloribus non, vitae deserunt cum incidunt alias iure
+                excepturi ex totam consequuntur, architecto praesentium sint. Similique nemo officiis vel incidunt.
+                Possimus optio voluptate nostrum velit ut doloremque qui repellat vel inventore cumque quam iste,
+                nesciunt ea, eaque neque repellendus veniam fuga, id vero perspiciatis quos laborum consequatur. Error
+                distinctio dicta nihil inventore atque culpa dignissimos. Ex beatae dolores voluptatibus maxime dolor
+                reiciendis repudiandae nobis ab, saepe est, atque illo perspiciatis, asperiores consequatur earum
+                eveniet quis architecto? Quibusdam, omnis corrupti. Animi quas nulla veniam minus rem vel odit
+                voluptatem laborum mollitia laudantium ea quasi aperiam accusamus rerum assumenda quam sapiente
+                accusantium, repellendus nam sequi recusandae ipsa laboriosam! Veniam, autem. Excepturi, ipsa, sequi
+                facilis eligendi vero tenetur, tempora deserunt magnam ut perspiciatis quam ad aspernatur nihil sed
+                omnis labore sit odio illo laudantium nulla fugit accusamus quidem pariatur est. Sequi quas sapiente
+                fuga iste eos qui delectus doloremque. Cumque ad nobis animi iusto corrupti, saepe id aperiam blanditiis
+                aliquam expedita vitae laudantium iure molestias in?</p>
+            <button>Order Now</button>
+        </div>
+    </div>
 </body>
+
 </html>
