@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 10px;
+        }
+
+        .food {
+            border: 2px solid tomato;
+            border-radius: 5px;
+            /* padding: 10px; */
+            display: flex;
+            gap: 10px;
+            height: 40vh;
+
+        }
+
+        .food img {
+            /* height: 30%; */
+             border-radius: 5px;
+        }
+        .container button{
+            background-color: blue;
+            color: white;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        @media screen and (max-width: 576px) {
+            .food{
+                display: block;
+                height: auto;
+                
+            }
+            .food img{
+                height: 50%;
+                width: 100%;
+            }
+
+            .letter{
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="assets/img/Organic 1.jpg" alt="">
+            <div class="letter">
+                <h1>This is a food item</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit id repellendus ex quo nobis, illo
+                    expedita nulla commodi eveniet maxime placeat. Consequuntur numquam voluptates corporis fuga ipsam,
+                    sit excepturi ab doloremque asperiores praesentium modi facere architecto? Aspernatur libero, ad at
+                    tenetur vitae, autem voluptas iure sequi modi ipsa dolorem excepturi?</p>
+                <button>Order Now</button>
+            </div>
+        </div>
+        <div class="food">
+            <img src="assets/img/Organic 1.jpg" alt="">
+            <div class="letter">
+                <h1>This is a food item</h1>
+                <p>Distinctio aspernatur itaque veniam magni voluptatibus ad minima magnam corrupti alias, totam
+                    suscipit
+                    optio doloremque iusto, laborum accusamus explicabo quod quis! Nobis quas cupiditate exercitationem
+                    non
+                    culpa est tempore deserunt quibusdam eveniet, quidem pariatur nulla molestias sint ut ullam. Aut
+                    ducimus
+                    sequi distinctio dolor hic rerum autem nulla ad inventore.</p>
+                <button>Order Now</button>
+            </div>
+        </div>
+        <div class="food">
+            <img src="assets/img/Organic 1.jpg" alt="">
+            <div class="letter">
+                <h1>This is a food item</h1>
+                <p>Tempora sit id reprehenderit vel perspiciatis, laborum magni laboriosam iste ducimus iure aliquid
+                    ipsum
+                    nesciunt expedita molestias corporis ratione impedit cumque deleniti. Quidem nihil exercitationem
+                    quaerat eum? Fuga delectus voluptas dolorem quasi cupiditate aspernatur ratione quis numquam alias
+                    cumque minus nulla at ipsa atque consequatur explicabo, ducimus magni debitis nemo.</p>
+                <button>Order Now</button>
+            </div>
+        </div>
+        <div class="food">
+            <img src="assets/img/Organic 1.jpg" alt="">
+
+            <div class="letter">
+                <h1>This is a food item</h1>
+                <p>Impedit ducimus dolores id asperiores commodi mollitia? Voluptatum nihil eligendi sequi! Obcaecati
+                    libero
+                    maiores enim quaerat perferendis animi nesciunt accusantium cum labore iusto repellendus sequi porro
+                    voluptate praesentium blanditiis fugit, dolorem quae quia ab veniam nisi sit. Et atque ut, ullam
+                    consectetur repellat quas nulla. Nulla cum optio necessitatibus incidunt.</p>
+                <button>Order Now</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
