@@ -26,7 +26,7 @@
         .food img {
             /* height: 30%; */
              border-radius: 5px;
-             width: 50%;
+             width: 30%;
         }
         .container button{
             background-color: blue;
@@ -36,6 +36,9 @@
         }
 
         @media screen and (max-width: 576px) {
+            .container {
+                flex-direction: column;
+            }
             .food{
                 display: block;
                 height: auto;
